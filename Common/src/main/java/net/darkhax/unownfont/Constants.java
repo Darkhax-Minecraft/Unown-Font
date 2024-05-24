@@ -10,5 +10,5 @@ public class Constants {
     public static final String MOD_NAME = "Unown Font";
     public static final Logger LOG = LoggerFactory.getLogger(MOD_NAME);
 
-    public static final ResourceLocation FONT_RUNELIC = new ResourceLocation(MOD_ID, "unown");
+    public static final ResourceLocation FONT_ID = new ResourceLocation(MOD_ID, "unown");
 }

@@ -13,7 +13,7 @@ import net.minecraft.world.level.block.entity.BannerPattern;
 public class UnownFontPattern extends BannerPatternItem {
 
     private static final TagKey<BannerPattern> BANNER_TAG = Services.TAGS.bannerPatternTag(new ResourceLocation(Constants.MOD_ID, "pattern_item/unown"));
-    private static final Properties PROPERTIES = new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).tab(CreativeModeTab.TAB_DECORATIONS);
+    private static final Properties PROPERTIES = new Item.Properties().stacksTo(1).rarity(Rarity.EPIC);
 
     public UnownFontPattern() {
 
