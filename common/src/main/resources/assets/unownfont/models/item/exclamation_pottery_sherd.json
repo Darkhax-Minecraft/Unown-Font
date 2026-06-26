@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "unownfont:item/exclamation_pottery_sherd"
+  }
+}

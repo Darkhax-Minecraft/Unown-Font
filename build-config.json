@@ -1,0 +1,44 @@
+{
+  "mod": {
+    "name": "Unown-Font",
+    "group": "net.darkhax.unownfont",
+    "authors": [
+      "Darkhax"
+    ],
+    "id": "unownfont",
+    "license": "ARR",
+    "description": "Adds a font inspired by the unown characters to Minecraft.",
+    "repo": "https://github.com/Darkhax-Minecraft/Unown-Font",
+    "client": false
+  },
+  "curseforge": {
+    "slug": "unown-font",
+    "id": "965978"
+  },
+  "modrinth": {
+    "slug": "unown-font",
+    "id": "aCJIsGLk"
+  },
+  "dependencies": [
+    {
+      "name": "Bookshelf",
+      "type": "required",
+      "mod_id": {
+        "id": "bookshelf"
+      },
+      "maven": {
+        "common": "net.darkhax.bookshelf:bookshelf-common-26.1.2:26.1.2.12",
+        "neoforge": "net.darkhax.bookshelf:bookshelf-neoforge-26.1.2:26.1.2.12",
+        "fabric": "net.darkhax.bookshelf:bookshelf-fabric-26.1.2:26.1.2.12"
+      },
+      "curseforge": {
+        "slug": "bookshelf",
+        "id": "228525"
+      },
+      "modrinth": {
+        "slug": "bookshelf-lib",
+        "id": "uy4Cnpcm"
+      }
+    }
+  ]
+}

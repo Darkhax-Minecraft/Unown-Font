@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "unownfont:block/mew_mural_q"
+    },
+    "facing=east": {
+      "model": "unownfont:block/mew_mural_q",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "unownfont:block/mew_mural_q",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "unownfont:block/mew_mural_q",
+      "y": 270
+    }
+  }
+}

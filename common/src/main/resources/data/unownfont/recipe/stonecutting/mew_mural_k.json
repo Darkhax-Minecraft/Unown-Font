@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:waxed_oxidized_copper",
+    "minecraft:oxidized_copper"
+  ],
+  "result": {
+    "count": 1,
+    "id": "unownfont:mew_mural_k"
+  }
+}

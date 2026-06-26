@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:brick",
+  "result": {
+    "count": 1,
+    "id": "unownfont:x_pottery_sherd"
+  }
+}

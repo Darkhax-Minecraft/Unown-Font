@@ -1,0 +1,202 @@
+{
+	"format_version": "1.21.11",
+	"parent": "block/block",
+	"textures": {
+		"design": "unownfont:block/mural_i_design",
+		"front": "unownfont:block/mew_mural_front",
+		"particle": "unownfont:block/mew_mural_side",
+		"side": "unownfont:block/mew_mural_side",
+		"back": "unownfont:block/mew_mural_back",
+		"overlay": "unownfont:block/mural_i_back"
+	},
+	"elements": [
+		{
+			"name": "mural_block",
+			"from": [0, 0, 0],
+			"to": [16, 16, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#back", "cullface": "north"},
+				"east": {"uv": [0, 1, 16, 15], "rotation": 90, "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#front"},
+				"west": {"uv": [0, 1, 16, 15], "rotation": 270, "texture": "#side", "cullface": "west"},
+				"up": {"uv": [16, 1, 0, 15], "texture": "#side", "cullface": "up"},
+				"down": {"uv": [0, 15, 16, 1], "texture": "#side", "cullface": "down"}
+			}
+		},
+		{
+			"name": "mural_overlay",
+			"from": [0, 0, 0],
+			"to": [16, 16, 14],
+			"light_emission": 6,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "north"}
+			}
+		},
+		{
+			"name": "mural_i_design_0",
+			"from": [0, 15, 14],
+			"to": [16, 16, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"east": {"uv": [15, 0, 16, 1], "texture": "#design"},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#design"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#design"},
+				"up": {"uv": [0, 0, 16, 1], "texture": "#design"},
+				"down": {"uv": [0, 0, 16, 1], "texture": "#design"}
+			}
+		},
+		{
+			"name": "mural_i_design_1",
+			"from": [15, 0, 14],
+			"to": [16, 15, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"east": {"uv": [15, 1, 16, 16], "texture": "#design"},
+				"south": {"uv": [15, 1, 16, 16], "texture": "#design"},
+				"west": {"uv": [15, 1, 16, 16], "texture": "#design"},
+				"up": {"uv": [15, 1, 16, 2], "texture": "#design"},
+				"down": {"uv": [15, 15, 16, 16], "texture": "#design"}
+			}
+		},
+		{
+			"name": "mural_i_design_2",
+			"from": [0, 12, 14],
+			"to": [14, 14, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"east": {"uv": [13, 2, 14, 4], "texture": "#design"},
+				"south": {"uv": [0, 2, 14, 4], "texture": "#design"},
+				"west": {"uv": [0, 2, 1, 4], "texture": "#design"},
+				"up": {"uv": [0, 2, 14, 3], "texture": "#design"},
+				"down": {"uv": [0, 3, 14, 4], "texture": "#design"}
+			}
+		},
+		{
+			"name": "mural_i_design_3",
+			"from": [2, 8, 14],
+			"to": [4, 12, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"east": {"uv": [3, 4, 4, 8], "texture": "#design"},
+				"south": {"uv": [2, 4, 4, 8], "texture": "#design"},
+				"west": {"uv": [2, 4, 3, 8], "texture": "#design"},
+				"up": {"uv": [2, 4, 4, 5], "texture": "#design"},
+				"down": {"uv": [2, 7, 4, 8], "texture": "#design"}
+			}
+		},
+		{
+			"name": "mural_i_design_4",
+			"from": [12, 0, 14],
+			"to": [14, 12, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"east": {"uv": [13, 4, 14, 16], "texture": "#design"},
+				"south": {"uv": [12, 4, 14, 16], "texture": "#design"},
+				"west": {"uv": [12, 4, 13, 16], "texture": "#design"},
+				"up": {"uv": [12, 4, 14, 5], "texture": "#design"},
+				"down": {"uv": [12, 15, 14, 16], "texture": "#design"}
+			}
+		},
+		{
+			"name": "mural_i_design_5",
+			"from": [0, 8, 14],
+			"to": [2, 10, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"east": {"uv": [1, 6, 2, 8], "texture": "#design"},
+				"south": {"uv": [0, 6, 2, 8], "texture": "#design"},
+				"west": {"uv": [0, 6, 1, 8], "texture": "#design"},
+				"up": {"uv": [0, 6, 2, 7], "texture": "#design"},
+				"down": {"uv": [0, 7, 2, 8], "texture": "#design"}
+			}
+		},
+		{
+			"name": "mural_i_design_6",
+			"from": [4, 8, 14],
+			"to": [10, 10, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"east": {"uv": [9, 6, 10, 8], "texture": "#design"},
+				"south": {"uv": [4, 6, 10, 8], "texture": "#design"},
+				"west": {"uv": [4, 6, 5, 8], "texture": "#design"},
+				"up": {"uv": [4, 6, 10, 7], "texture": "#design"},
+				"down": {"uv": [4, 7, 10, 8], "texture": "#design"}
+			}
+		},
+		{
+			"name": "mural_i_design_7",
+			"from": [3, 0, 14],
+			"to": [5, 8, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"east": {"uv": [4, 8, 5, 16], "texture": "#design"},
+				"south": {"uv": [3, 8, 5, 16], "texture": "#design"},
+				"west": {"uv": [3, 8, 4, 16], "texture": "#design"},
+				"up": {"uv": [3, 8, 5, 9], "texture": "#design"},
+				"down": {"uv": [3, 15, 5, 16], "texture": "#design"}
+			}
+		},
+		{
+			"name": "mural_i_design_8",
+			"from": [8, 0, 14],
+			"to": [10, 8, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"east": {"uv": [9, 8, 10, 16], "texture": "#design"},
+				"south": {"uv": [8, 8, 10, 16], "texture": "#design"},
+				"west": {"uv": [8, 8, 9, 16], "texture": "#design"},
+				"up": {"uv": [8, 8, 10, 9], "texture": "#design"},
+				"down": {"uv": [8, 15, 10, 16], "texture": "#design"}
+			}
+		},
+		{
+			"name": "mural_i_design_9",
+			"from": [0, 4, 14],
+			"to": [3, 6, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"east": {"uv": [2, 10, 3, 12], "texture": "#design"},
+				"south": {"uv": [0, 10, 3, 12], "texture": "#design"},
+				"west": {"uv": [0, 10, 1, 12], "texture": "#design"},
+				"up": {"uv": [0, 10, 3, 11], "texture": "#design"},
+				"down": {"uv": [0, 11, 3, 12], "texture": "#design"}
+			}
+		},
+		{
+			"name": "mural_i_design_10",
+			"from": [10, 4, 14],
+			"to": [12, 6, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"east": {"uv": [11, 10, 12, 12], "texture": "#design"},
+				"south": {"uv": [10, 10, 12, 12], "texture": "#design"},
+				"west": {"uv": [10, 10, 11, 12], "texture": "#design"},
+				"up": {"uv": [10, 10, 12, 11], "texture": "#design"},
+				"down": {"uv": [10, 11, 12, 12], "texture": "#design"}
+			}
+		},
+		{
+			"name": "mural_i_design_11",
+			"from": [5, 0, 14],
+			"to": [8, 2, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"east": {"uv": [7, 14, 8, 16], "texture": "#design"},
+				"south": {"uv": [5, 14, 8, 16], "texture": "#design"},
+				"west": {"uv": [5, 14, 6, 16], "texture": "#design"},
+				"up": {"uv": [5, 14, 8, 15], "texture": "#design"},
+				"down": {"uv": [5, 15, 8, 16], "texture": "#design"}
+			}
+		}
+	],
+	"display": {},
+	"groups": [
+		0,
+		{
+			"name": "mural_i_design",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+		}
+	]
+}
