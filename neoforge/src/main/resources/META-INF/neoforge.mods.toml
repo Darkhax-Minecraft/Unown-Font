@@ -4,13 +4,13 @@ issueTrackerURL = "https://github.com/Darkhax-Minecraft/Unown-Font/issues"
 
 [[mods]]
 modId = "unownfont"
-version = "26.1.2.0"
+version = "26.2.0.0"
 displayName = "Unown-Font"
-updateJSONURL = "https://updates.blamejared.com/get?n=unownfont&gv=26.1.2&ml=neoforge"
+updateJSONURL = "https://updates.blamejared.com/get?n=unownfont&gv=26.2&ml=neoforge"
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/unown-font"
 logoFile = "logo_unownfont.png"
 logoBlur = false
-credits = "This project is made possible with Patreon support from players like you. Thank you! lothrazar, techsquirrel, Keyana , Darkosto, Tobias Ward, noobanidus"
+credits = "This project is made possible with Patreon support from players like you. Thank you! lothrazar, techsquirrel, Tobias Ward, noobanidus"
 authors = "Darkhax"
 description = "Adds a font inspired by the unown characters to Minecraft."
 
@@ -23,14 +23,14 @@ config = "unownfont.neoforge.mixins.json"
 [[dependencies.unownfont]]
 modId = "minecraft"
 type = "required"
-versionRange = "26.1"
+versionRange = "26.2"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.unownfont]]
 modId = "neoforge"
 type = "required"
-versionRange = "[26.1.0.1-beta,)"
+versionRange = "[26.2.0.1-beta,)"
 ordering = "NONE"
 side = "BOTH"
 
